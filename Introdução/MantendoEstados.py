@@ -34,5 +34,11 @@ c1.fotografar()
 c1.Parar_filmar()
 c1.fotografar()
 
+c2.filmar()
+c2.filmar()
+c2.fotografar()
+c2.Parar_filmar()
+c2.fotografar()
+
 print(c1.filmando)
 print(c2.filmando)

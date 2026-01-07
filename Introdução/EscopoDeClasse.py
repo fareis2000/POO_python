@@ -16,3 +16,7 @@ class Animal:
 leao = Animal(nome='Leao')
 print(leao.nome)
 print(leao.executar('zebra'))
+
+leao.__dict__['nome'] = 'leoa'
+print(leao.__dict__)
+del leao.__dict__['nome']
