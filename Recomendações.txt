@@ -1,0 +1,7 @@
+Alunos, aqui estão dicas de conteudos interessantes:
+
+php, programando com orientação a objetos
+
+livro: Python, fluente.
+
+Livro: Padroes de projeto.
