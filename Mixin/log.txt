@@ -1,0 +1,14 @@
+SUCCESS: Teste
+-------------------
+ERROR: Teste
+-------------------
+SUCCESS: Teste
+-------------------
+ERROR: Teste
+-------------------
+SUCCESS: Teste
+-------------------
+ERROR: nao mesmo
+-------------------
+SUCCESS: sim mesmo
+-------------------
