@@ -8,4 +8,3 @@ iphone.ligar()
 
 galaxy.desligar()
 iphone.desligar()
-
