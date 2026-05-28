@@ -12,3 +12,11 @@ ERROR: nao mesmo
 -------------------
 SUCCESS: sim mesmo
 -------------------
+SUCCESS: Galaxy S21 está ligado
+-------------------
+SUCCESS: iPhone 13 está ligado
+-------------------
+ERROR: Galaxy S21 está desligado
+-------------------
+ERROR: iPhone 13 está desligado
+-------------------

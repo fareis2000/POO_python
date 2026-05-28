@@ -1,4 +1,4 @@
-from Log import logprintMixin
+from Log import logprintMixin, logfileMixin
 
 
 class Eletronico:
@@ -14,7 +14,7 @@ class Eletronico:
         if self._ligado:
             self._ligado = False
 
-class Smartphone(Eletronico, logprintMixin):
+class Smartphone(Eletronico, logfileMixin):
     def ligar(self):
         super().ligar()
 
