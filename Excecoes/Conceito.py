@@ -24,7 +24,7 @@ except (MeuError, OutroError, ZeroDivisionError) as error:
     print(error.args)
     print()
     exception_ = OutroError('lançando outro erro')
-    exception.__notes = error.__notes__.copy()
+    exception_.__notes = error.__notes__.copy()
     exception_.add_note('Notas da exceção lançada')
-    raise exception_ from error
+    raise exception_ from error# relançando a exceção, mantendo o rastreamento da pilha de chamadas (stack trace)
 
