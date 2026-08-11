@@ -37,12 +37,16 @@ class corrente(Conta):
 
     def sacar(self, valor):
         valor_pos_saque = self.saldo - valor
-        if valor_pos_saque >= 0:
+
+        limite_maximo = -self.limite
+
+        if valor_pos_saque >= limite_maximo:
             self.saldo -= valor
             self.detalhes(f'(SACANDO {valor})')
             return self.saldo
 
         print('nAO DEU PARA SACAR IRMAO')
+        print(f'Seu limite é {self.limite:.2f}')
         self.detalhes(f'(SAQUE NEGADO {valor})')
 
 if __name__ == "__main__":
@@ -50,3 +54,9 @@ if __name__ == "__main__":
     cp1.sacar(1)
     cp1.depositar(1)
     cp1.sacar(1)
+    print('##')
+    cc1 = corrente(111, 222, 0, 100)
+    cc1.sacar(1)
+    cc1.depositar(1)
+    cc1.sacar(1)
+    print('##')
